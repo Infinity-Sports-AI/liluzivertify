@@ -2,7 +2,7 @@
 from unittest.mock import patch, Mock
 
 # local package imports
-from clipsai.diarize.pyannote import PyannoteDiarizer
+from liluzivertify.diarize.pyannote import PyannoteDiarizer
 
 # third party imports
 import pandas as pd

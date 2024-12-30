@@ -5,7 +5,7 @@ setup(
     py_modules=["liluzivertify"],
     version="0.0.1",
     description=(
-        "Lil Uzi Vertify is based on a fork of ClipsAI but solely looks to "
+        "Lil Uzi Vertify is based on a fork of Lil Uzi Vertify but solely looks to "
         "meaningfully convert horizontal videos to vertical using AI"
     ),
     long_description=open("README.md").read(),
@@ -18,10 +18,23 @@ setup(
     install_requires=[
         "av",
         "facenet-pytorch",
+        "matplotlib",
         "mediapipe",
+        "nltk",
+        "numpy",
         "opencv-python",
+        "pandas",
+        "psutil",
+        "pyannote.audio",
+        "pyannote.core",
+        "pynvml",
+        "pytest",
+        "python-magic",
+        "scenedetect",
         "scikit-learn",
-        "scenedetect"
+        "sentence-transformers",
+        "scipy",
+        "torch",
     ],
     zip_safe=False,
     python_requires=">=3.9",

@@ -17,10 +17,10 @@ from .segment import Segment
 from .vid_proc import extract_frames
 
 # local package imports
-from media.editor import MediaEditor
-from media.video_file import VideoFile
-from utils import pytorch
-from utils.conversions import bytes_to_gibibytes
+from liluzivertify.media.editor import MediaEditor
+from liluzivertify.media.video_file import VideoFile
+from liluzivertify.utils import pytorch
+from liluzivertify.utils.conversions import bytes_to_gibibytes
 
 # 3rd party imports
 import cv2

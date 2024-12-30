@@ -15,12 +15,12 @@ from .exceptions import TranscriberConfigError
 from .transcription import Transcription
 
 # local imports
-from clipsai.media.audio_file import AudioFile
-from clipsai.media.editor import MediaEditor
-from clipsai.utils.config_manager import ConfigManager
-from clipsai.utils.pytorch import assert_valid_torch_device, get_compute_device
-from clipsai.utils.type_checker import TypeChecker
-from clipsai.utils.utils import find_missing_dict_keys
+from liluzivertify.media.audio_file import AudioFile
+from liluzivertify.media.editor import MediaEditor
+from liluzivertify.utils.config_manager import ConfigManager
+from liluzivertify.utils.pytorch import assert_valid_torch_device, get_compute_device
+from liluzivertify.utils.type_checker import TypeChecker
+from liluzivertify.utils.utils import find_missing_dict_keys
 
 # third party imports
 import torch

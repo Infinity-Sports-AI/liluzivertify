@@ -1,8 +1,8 @@
 import pytest
 from unittest.mock import MagicMock
-from clipsai.clip.clipfinder import ClipFinderConfigManager
-from clipsai.clip.texttiler import TextTilerConfigManager
-from clipsai.transcribe.transcription import Transcription
+from liluzivertify.clip.clipfinder import ClipFinderConfigManager
+from liluzivertify.clip.texttiler import TextTilerConfigManager
+from liluzivertify.transcribe.transcription import Transcription
 
 
 @pytest.fixture

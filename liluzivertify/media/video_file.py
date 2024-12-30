@@ -18,7 +18,7 @@ from .image_file import ImageFile
 from .temporal_media_file import TemporalMediaFile
 
 # local imports
-from clipsai.utils.conversions import seconds_to_hms_time_format
+from liluzivertify.utils.conversions import seconds_to_hms_time_format
 
 
 SUCCESS = 0

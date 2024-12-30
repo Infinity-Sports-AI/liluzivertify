@@ -2,7 +2,7 @@
 Exceptions that can be raised by the media package.
 """
 # local imports
-from clipsai.filesys.exceptions import FileError
+from liluzivertify.filesys.exceptions import FileError
 
 
 class MediaFileError(FileError):

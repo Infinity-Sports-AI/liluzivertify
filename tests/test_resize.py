@@ -2,9 +2,9 @@
 from unittest.mock import patch, MagicMock
 
 # local package imports
-from clipsai.media.video_file import VideoFile
-from clipsai.resize.resizer import Resizer
-from clipsai.resize.rect import Rect
+from liluzivertify.media.video_file import VideoFile
+from liluzivertify.resize.resizer import Resizer
+from liluzivertify.resize.rect import Rect
 
 
 # third party imports

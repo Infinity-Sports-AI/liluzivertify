@@ -10,8 +10,8 @@ import subprocess
 from .exceptions import NoAudioStreamError, NoVideoStreamError
 
 # local imports
-from clipsai.filesys.file import File
-from clipsai.filesys.manager import FileSystemManager
+from liluzivertify.filesys.file import File
+from liluzivertify.filesys.manager import FileSystemManager
 
 
 SUCCESS = 0

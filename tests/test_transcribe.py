@@ -2,14 +2,14 @@ import pytest
 from unittest.mock import patch
 from datetime import datetime
 
-from clipsai.filesys.json_file import JSONFile
-from clipsai.media.audio_file import AudioFile
-from clipsai.media.audiovideo_file import AudioVideoFile
-from clipsai.media.editor import MediaEditor
-from clipsai.media.exceptions import MediaEditorError
-from clipsai.transcribe.exceptions import TranscriptionError
-from clipsai.transcribe.transcriber import TranscriberConfigManager
-from clipsai.transcribe.transcription import Transcription
+from liluzivertify.filesys.json_file import JSONFile
+from liluzivertify.media.audio_file import AudioFile
+from liluzivertify.media.audiovideo_file import AudioVideoFile
+from liluzivertify.media.editor import MediaEditor
+from liluzivertify.media.exceptions import MediaEditorError
+from liluzivertify.transcribe.exceptions import TranscriptionError
+from liluzivertify.transcribe.transcriber import TranscriberConfigManager
+from liluzivertify.transcribe.transcription import Transcription
 
 
 @pytest.fixture

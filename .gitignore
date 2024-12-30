@@ -198,7 +198,7 @@ Dockerfile
 
 # Local Data
 data/
-clipsai/data
+liluzivertify/data
 test_files/
 
 # Ignore macOS system files

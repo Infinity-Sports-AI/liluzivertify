@@ -12,9 +12,9 @@ from .texttiler import TextTiler
 from .texttiler import TextTilerConfigManager
 
 # local package imports
-from clipsai.transcribe.transcription import Transcription
-from clipsai.utils.pytorch import get_compute_device, assert_compute_device_available
-from clipsai.utils.utils import find_missing_dict_keys
+from liluzivertify.transcribe.transcription import Transcription
+from liluzivertify.utils.pytorch import get_compute_device, assert_compute_device_available
+from liluzivertify.utils.utils import find_missing_dict_keys
 
 # 3rd party imports
 import torch
@@ -418,7 +418,7 @@ class ClipFinderConfigManager(TextTilerConfigManager):
     def check_valid_config(
         self,
         texttile_config: dict,
-    ) -> str or None:
+    ) -> str or None: # type: ignore
         """
         Checks that 'texttile_config' contains valid configuration settings. Returns
         None if valid, a descriptive error message if invalid.
@@ -469,7 +469,7 @@ class ClipFinderConfigManager(TextTilerConfigManager):
 
     def check_valid_clip_times(
         self, min_clip_duration: float, max_clip_duration: float
-    ) -> str or None:
+    ) -> str or None: # type: ignore
         """
         Checks the clip times are valid. Returns None if the clip times are valid, a
         descriptive error message if invalid.

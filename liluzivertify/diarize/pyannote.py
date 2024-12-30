@@ -20,8 +20,8 @@ import os
 import uuid
 
 # local package imports
-from clipsai.media.audio_file import AudioFile
-from clipsai.utils.pytorch import get_compute_device, assert_compute_device_available
+from liluzivertify.media.audio_file import AudioFile
+from liluzivertify.utils.pytorch import get_compute_device, assert_compute_device_available
 
 # third party imports
 from pyannote.audio import Pipeline

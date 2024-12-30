@@ -10,8 +10,8 @@ from .resizer import Resizer
 from .vid_proc import detect_scenes
 
 # local package imports
-from diarize.pyannote import PyannoteDiarizer
-from media.audiovideo_file import AudioVideoFile
+from liluzivertify.diarize.pyannote import PyannoteDiarizer
+from liluzivertify.media.audiovideo_file import AudioVideoFile
 
 
 def resize(
