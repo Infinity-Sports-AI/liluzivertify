@@ -70,6 +70,7 @@ def resize(
         An object containing information about the resized video
     """
     media = AudioVideoFile(video_file_path)
+
     media.assert_has_audio_stream()
     media.assert_has_video_stream()
 

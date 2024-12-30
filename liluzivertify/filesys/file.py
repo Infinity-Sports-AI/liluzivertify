@@ -212,7 +212,7 @@ class File(FileSystemObject):
         # File must exist to use magic to grab mimetype
         self.assert_exists()
 
-        mime = magic.Magic(mime=True)
+        mime = magic.Magic(mime=True, magic_file="magic.mgc")
         mime_type = mime.from_file(self._path)
         return mime_type
 

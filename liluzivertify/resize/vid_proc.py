@@ -10,7 +10,7 @@ from .exceptions import VideoProcessingError
 from .img_proc import rgb_to_gray
 
 # local imports
-from media.video_file import VideoFile
+from liluzivertify.media.video_file import VideoFile
 
 # third party imports
 import av
