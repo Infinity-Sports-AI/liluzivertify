@@ -1,8 +1,8 @@
 from setuptools import find_packages, setup
 
 setup(
-    name="lil-uzi-vertify",
-    py_modules=["lil-uzi-vertify"],
+    name="liluzivertify",
+    py_modules=["liluzivertify"],
     version="0.0.1",
     description=(
         "Lil Uzi Vertify is based on a fork of ClipsAI but solely looks to "
@@ -18,23 +18,10 @@ setup(
     install_requires=[
         "av",
         "facenet-pytorch",
-        "matplotlib",
         "mediapipe",
-        "nltk",
-        "numpy",
         "opencv-python",
-        "pandas",
-        "psutil",
-        "pyannote.audio",
-        "pyannote.core",
-        "pynvml",
-        "pytest",
-        "python-magic",
-        "scenedetect",
         "scikit-learn",
-        "sentence-transformers",
-        "scipy",
-        "torch",
+        "scenedetect"
     ],
     zip_safe=False,
     python_requires=">=3.9",
@@ -44,8 +31,8 @@ setup(
         "Operating System :: OS Independent",
     ],
     project_urls={
-        "Repository": "https://github.com/Infinity-Sports-AI/lil-uzi-vertify",
-        "Issues": "https://github.com/Infinity-Sports-AI/lil-uzi-vertify/issues",
+        "Repository": "https://github.com/Infinity-Sports-AI/liluzivertify",
+        "Issues": "https://github.com/Infinity-Sports-AI/liluzivertify/issues",
     },
     include_package_data=True,
     extras_require={

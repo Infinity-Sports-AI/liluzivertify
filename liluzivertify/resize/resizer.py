@@ -17,10 +17,10 @@ from .segment import Segment
 from .vid_proc import extract_frames
 
 # local package imports
-from clipsai.media.editor import MediaEditor
-from clipsai.media.video_file import VideoFile
-from clipsai.utils import pytorch
-from clipsai.utils.conversions import bytes_to_gibibytes
+from media.editor import MediaEditor
+from media.video_file import VideoFile
+from utils import pytorch
+from utils.conversions import bytes_to_gibibytes
 
 # 3rd party imports
 import cv2
