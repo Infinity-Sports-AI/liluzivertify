@@ -1,18 +1,18 @@
 from setuptools import find_packages, setup
 
 setup(
-    name="clipsai",
-    py_modules=["clipsai"],
-    version="0.2.1",
+    name="lil-uzi-vertify",
+    py_modules=["lil-uzi-vertify"],
+    version="0.0.1",
     description=(
-        "Clips AI is an open-source Python library that automatically converts long "
-        "videos into clips"
+        "Lil Uzi Vertify is based on a fork of ClipsAI but solely looks to "
+        "meaningfully convert horizontal videos to vertical using AI"
     ),
     long_description=open("README.md").read(),
     long_description_content_type="text/markdown",
-    author="Benjamin Smidt, Johann Ramirez, Armel Talla",
-    author_email="support@clipsai.com",
-    url="https://clipsai.com/",
+    author="Alexander Fayad",
+    author_email="dev@infinitystud.io",
+    url="https://infinitystud.io/",
     license="MIT",
     packages=find_packages(exclude=["tests*"]),
     install_requires=[
@@ -44,10 +44,8 @@ setup(
         "Operating System :: OS Independent",
     ],
     project_urls={
-        "Documentation": "https://docs.clipsai.com/",
-        "Homepage": "https://clipsai.com/",
-        "Repository": "https://github.com/ClipsAI/clipsai",
-        "Issues": "https://github.com/ClipsAI/clipsai/issues",
+        "Repository": "https://github.com/Infinity-Sports-AI/lil-uzi-vertify",
+        "Issues": "https://github.com/Infinity-Sports-AI/lil-uzi-vertify/issues",
     },
     include_package_data=True,
     extras_require={
