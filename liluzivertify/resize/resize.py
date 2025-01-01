@@ -78,6 +78,8 @@ def resize(
     diarizer = PyannoteDiarizer(auth_token=pyannote_auth_token, device=device)
     diarized_segments = diarizer.diarize(media, min_segment_duration, time_precision)
 
+    print(diarized_segments)
+
     logging.debug("DETECTING SCENES IN VIDEO ({})".format(media.get_filename()))
     scene_changes = detect_scenes(media, min_scene_duration)
 
